@@ -1,0 +1,31 @@
+.textarea-container {
+  position: relative;
+  width: 100%;
+  padding: 16px 0 10px;
+  overflow: hidden;
+}
+
+textarea,
+.textarea-size {
+  min-height: 25px;
+  font-family: sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  // padding: 4px;
+  border: 1px solid;
+  overflow: hidden;
+  width: 100%;
+}
+
+textarea {
+  position: absolute;
+  resize: none;
+  white-space: normal;
+}
+
+.textarea-size {
+  visibility: hidden;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Raleway;
+  src: url("./Raleway-Regular.ttf") format("truetype");
+}
+
+/*
+@font-face {
+  font-family: "myfontfamily";
+  src: url("./fonts/myfontfile.woff2") format("woff2"),
+  url("./fonts/myfontfile.woff") format("woff"),
+  url("./fonts/myfontfile.eot") format("embedded-opentype"),
+  url("./Raleway-Regular") format("truetype");
+}
+*/
